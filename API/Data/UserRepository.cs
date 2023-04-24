@@ -33,6 +33,7 @@ namespace API.Data
                 .AsQueryable();
 
             query = query.Where(u => u.UserName != userParams.CurrentUsername);
+            query = query.Where(u => u.Gender == userParams.Gender);
 
             query = userParams.OrderBy switch
             {
