@@ -1,0 +1,7 @@
+Validating fly.toml
+Platform: machines
+[32m✓[0m Configuration is valid
+
+Watch your app at https://fly.io/apps/employee-management/monitoring
+
+Updating existing machines in 'employee-management' with rolling strategy
